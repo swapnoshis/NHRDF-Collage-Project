@@ -1,0 +1,86 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* header_section */
+.header_section .header_socialicon a{
+    text-decoration: none;
+}
+
+/* DropDown */
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-left: 0.1rem;
+    margin-top: -0.25rem;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+
+
+/* principle_notice_section */
+.principle_notice_section p{
+text-align: justify;
+}
+
+.principle_notice_section .row{
+    justify-content:space-between;
+}
+
+
+.principle_notice_section .notice_section{
+    background-color: rgb(214, 219, 223);
+}
+
+.principle_notice_section .notice_section h4{
+    background-color:  rgb(163, 165, 167);
+}
+.welcome_section{
+    background-color: rgb(241, 244, 246);
+}
+
+.welcome_section .row{
+    align-items: center;
+    text-align: justify;
+}
+.welcome_section .right_col img{
+    height: 450px;
+    width: 645px;
+}
+
+/* institute_information */
+.institute_information .instituteinfo_header{
+    background-color:#002749;
+}
+
+
+/* footer_section */
+.footer_section .mid_col a{
+    text-decoration: none;
+}
+
+.footer_section .right_col a{
+    text-decoration: none;
+}
+
+.footer_section .mid_col ul li a:hover{
+    font-style: italic;
+    color: blue;
+}
+
+/* Teacher information page */
+/* Card */
+.teachet_info .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+    
+}
+
+.teachet_info .row{
+    justify-content: space-evenly;
+}
+.teachet_info h5{
+    color: rgb(243, 5, 5);
+}
