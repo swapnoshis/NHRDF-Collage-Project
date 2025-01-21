@@ -6,6 +6,26 @@
 .header_section .header_socialicon a{
     text-decoration: none;
 }
+.navbar_section.activeSticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    animation: fadeInDown;
+    animation-duration: .9s;
+    animation-name: test;
+    background-color: #4be96d;
+}
+@keyframes test{
+    from{
+        top: -100px;
+        transform: translateY(50px);
+    }
+    to{
+        top: 0;
+    }
+}
 
 /* DropDown */
 .dropdown-submenu .dropdown-menu {
